@@ -9,12 +9,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Poppins;
+    background-color: #f6f8f9;
 }
 
 /* COMMON */
 .container {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
+    background-color: gray;
 }
 
 /* HEADER */
@@ -22,22 +24,59 @@
     width: 100%;
     height: 80px;
     line-height: 80px;
+    background-color: white;
 }
 
 div.header-logo {
     margin-left: 3%;
     display: inline-block;
+    background-color: white;
 }
 
 #logo-image {
     height: 50px;
     vertical-align: middle;
+    background-color: white;
 }
 
 #logo-text {
     font-size: 35px;
     font-weight: bold;
     vertical-align: middle;
+    background-color: white;
+}
+
+/* MAIN */
+div.button-container {
+    background-color: white;
+    margin-top: 3em;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    border-radius: 4px;
 
 }
+
+#button-1 {
+    background-color: #47adf1;
+    border-style: none;
+    border-radius: 3px;
+    padding: 5px 9px;
+    color: white;
+    font-size: 8px;
+    font-weight: lighter;
+
+}
+
+#button-2 {
+    background-color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: lightgray;
+    padding: 5px 11px;
+    color: lightgray;
+    font-size: 8px;
+    font-weight: lighter;
+}
+
 
