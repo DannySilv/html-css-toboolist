@@ -47,6 +47,8 @@ div.header-logo {
 }
 
 /* MAIN */
+
+/* BUTTON */
 div.button-container {
     background-color: white;
     margin-top: 3em;
@@ -77,6 +79,15 @@ div.button-container {
     color: lightgray;
     font-size: 8px;
     font-weight: lighter;
+}
+
+/* LIST */
+div.list-container {
+
+}
+
+div.remove-icons {
+    
 }
 
 
