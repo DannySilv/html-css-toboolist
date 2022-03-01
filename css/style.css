@@ -138,4 +138,38 @@ div.list-container {
     color: red;
 }
 
+/* BOX */
+.box-structure {
+    border-style: none;
+    border-radius: 9px;
+    padding: 5px 9px;
+    color: white;
+    font-size: 7px;
+    font-weight: lighter;
+}
+
+.box-color-1 {
+    background-color: #47adf1;
+}
+
+.box-color-2 {
+    background-color: #9c72e4;
+}
+
+.box-color-3 {
+    background-color: #64c0a9;
+}
+
+.box-color-4 {
+    background-color: #f29e33;
+}
+
+.box-color-5 {
+    background-color: #d863a1;
+}
+
+.box-color-6 {
+    background-color: #b0c926;
+}
+
 
