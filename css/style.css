@@ -19,6 +19,14 @@
     background-color: gray;
 }
 
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+.mb-2 {
+    margin-bottom: 2em;
+}
+
 /* HEADER */
 .header {
     width: 100%;
@@ -65,7 +73,7 @@ div.button-container {
     border-radius: 3px;
     padding: 5px 9px;
     color: white;
-    font-size: 8px;
+    font-size: 10px;
     font-weight: lighter;
 
 }
@@ -77,17 +85,57 @@ div.button-container {
     border-color: lightgray;
     padding: 5px 11px;
     color: lightgray;
-    font-size: 8px;
+    font-size: 10px;
     font-weight: lighter;
 }
 
 /* LIST */
 div.list-container {
+    background-color: white;
+    margin-top: 2px;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    border-radius: 4px;
 
 }
 
-div.remove-icons {
-    
+.remove-icons-and-color {
+    background-color: white;
+    color: #585c64;
+    list-style: none;
+}
+
+.li-titles-edit {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.li-content-edit {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.check-edit, .cross-edit {
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+.check-edit {
+    border: 1px solid green;
+    color: green;
+}
+
+.cross-edit {
+    border: 1px solid red;
+    color: red;
 }
 
 
